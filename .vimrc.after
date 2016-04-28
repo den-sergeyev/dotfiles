@@ -1,0 +1,8 @@
+autocmd BufWritePre * :%s/\s\+$//e
+:set colorcolumn=100
+:highlight ColorColumn ctermbg=cyan guibg=cyan
+
+syntax enable
+set background=dark
+colorscheme solarized
+set nonu
