@@ -1,0 +1,23 @@
+[user]
+  name = Denis Sergeyev
+  email = dsrgyv@gmail.com
+[color]
+  ui = true
+  diff = true
+[alias]
+  s = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  dc = diff --cached
+  ds = diff --staged
+  lg = log -p
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  ls = ls-files
+[core]
+  editor = vim
+  excludesfile = /Users/den/.gitignore_global
+[push]
+  default = simple
